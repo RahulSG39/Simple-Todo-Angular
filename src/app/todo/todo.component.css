@@ -1,0 +1,25 @@
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  margin-right: 20px;
+  margin-top: 2px;
+  margin-bottom: 50px;
+  height: 30px;
+}
+
+h3 {
+  background-color: rgb(236, 198, 163);
+  padding: 10px;
+}
+
+.todo-display {
+  width: 50%;
+  margin: auto;
+}
+
+.todo-display h3 i {
+  margin-left: 50px;
+}

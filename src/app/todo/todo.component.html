@@ -1,0 +1,15 @@
+<div class="row">
+  <div class="col">
+    <input type="text" [(ngModel)]="todoItem" />
+  </div>
+  <div class="col">
+    <button class="btn btn-primary" (click)="addTodo()">Add Todo</button>
+  </div>
+</div>
+
+<div class="todo-display">
+  <h3 *ngFor="let todo of todos; let ind = index">
+    {{ todo }}
+    <i class="fa fa-times" (click)="deleteTodo(ind)"></i>
+  </h3>
+</div>
